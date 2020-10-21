@@ -1,4 +1,7 @@
-**FreeCodeCamp**- Information Security and Quality Assurance
+# **FreeCodeCamp**- Information Security and Quality Assurance
+
+## See this in action: [https://boilerplate-project-stockchecker.engrbugs.repl.co/](https://boilerplate-project-stockchecker.engrbugs.repl.co/)
+<br>
 ------
 
 [![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-project-stockchecker)](https://repl.it/github/freeCodeCamp/boilerplate-project-stockchecker)
