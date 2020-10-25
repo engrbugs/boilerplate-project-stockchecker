@@ -69,16 +69,16 @@ module.exports = function (app) {
     if (stockKeys.length === 1) {
       result = {
         stock: stockKeys[0],
-        ...stocksDB[stockKeys[0]]
+        ...stocksDB[stockKeys[0]],
       };
     } else {
       result = Object.keys(stocksDB)
-      .filter((key) => stockKeys.includes(key))
-      .map((key) => ({
-        stock: key,
-        ...stocksDB[key],
-      }));
-    };
+        .filter((key) => stockKeys.includes(key))
+        .map((key) => ({
+          stock: key,
+          ...stocksDB[key],
+        }));
+    }
 
     res.json({
       stockData: result,
